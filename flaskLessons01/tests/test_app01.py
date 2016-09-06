@@ -7,7 +7,6 @@ from flaskLessons01.learning01 import app
 class TestApp:
     @pytest.fixture
     def app(self):
-        
         return app
 
     def test_home(self):
